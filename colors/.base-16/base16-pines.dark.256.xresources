@@ -1,0 +1,30 @@
+! Base 16 Pines
+
+#define bg  #312033
+#define fg  #ffe4c9
+#define red #7e625f
+#define grn #bba955
+#define blu #aac0b4
+
+*.foreground:  fg
+*.background:  bg
+*.cursorColor: fg
+
+*.color0:      bg
+*.color1:      bg
+*.color2:      red
+*.color3:      red
+*.color4:      grn
+*.color5:      grn
+*.color6:      blu
+*.color7:      blu
+
+*.color8:      red
+*.color9:      red
+*.color10:     grn
+*.color11:     grn
+*.color12:     blu
+*.color13:     blu
+*.color14:     red
+*.color15:     red
+
