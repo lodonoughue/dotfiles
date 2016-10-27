@@ -1,0 +1,10 @@
+#include ".base-16/base16-ocean.dark.256.xresources"
+
+!Xft.dpi: 160
+
+! URxvt config
+URxvt.scrollstyle:    plain
+URxvt.font:           xft:Roboto Mono for Powerline:size=8:antialias=true
+URxvt.letterSpace:   -1
+URxvt.internalBorder: 15
+URxvt.scrollBar:      False
