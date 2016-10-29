@@ -1,0 +1,22 @@
+{
+   "manifest_version":   2,
+   "version":           "1.0",
+   "name":              "Base 16 Ocean Dark Theme",
+   "description":       "Theme using the base16 Ocean dark color scheme",
+   "theme": {
+      "colors": {
+         "frame":                   [ 43,  43,  59],
+         "frame_inactive":          [ 43,  43,  59],
+         "frame_incognito":         [ 43,  43,  59],
+         "frame_incognito_inactive":[ 43,  43,  59],
+         "tab_text":                [192, 197, 206],
+         "tab_background_text":     [192, 197, 206],
+         "toolbar":                 [101, 115, 126],
+         "button_background":       [192, 197, 206],
+         "bookmark_text":           [192, 197, 206]
+      },
+      "tints": {
+         "buttons":                 [0.0, 0.0, 0.85]
+      }
+   }
+}
