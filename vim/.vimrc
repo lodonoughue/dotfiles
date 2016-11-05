@@ -17,3 +17,5 @@ set number
 set mouse=a
 
 set foldmethod=marker
+set clipboard=unnamed
+

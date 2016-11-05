@@ -1,6 +1,6 @@
 #include ".base-16/base16-ocean.dark.256.xresources"
 
-!Xft.dpi: 160
+Xft.dpi: 100
 
 ! {{{ URxvt config 
 
@@ -24,9 +24,9 @@ rofi.bw:              0
 rofi.terminal:        URxvt
 
 !                       bg      fg    altbg    hlbg    hlfg
-rofi.color-normal:    base00, base05, base00, base05, base00
-rofi.color-urgent:    base00, base05, base00, base05, base00
-rofi.color-active:    base00, base05, base00, base05, base00
+rofi.color-normal:    base00, base05, base00, base00, base0A
+rofi.color-urgent:    base00, base05, base00, base00, base0A
+rofi.color-active:    base00, base05, base00, base00, base0A
 rofi.color-window:    base00, base00
 
 ! }}} 

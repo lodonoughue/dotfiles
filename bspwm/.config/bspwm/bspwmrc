@@ -1,8 +1,10 @@
-#! /bin/sh
+#!/bin/zsh
 
 sxhkd &
 
-bspc monitor -d I II III IV V VI VII VIII IX X
+icon=o
+
+bspc monitor -d $icon $icon $icon $icon $icon
 
 bspc config border_width            2
 bspc config window_gap             30
@@ -17,4 +19,4 @@ bspc config normal_border_color   \#2b303b
 
 bspc rule -a URxvt state=pseudo_tiled
 
-panel &
+
