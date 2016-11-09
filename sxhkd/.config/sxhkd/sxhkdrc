@@ -2,11 +2,23 @@
 # wm independent hotkeys
 #
 
+# keyboard backlight
 super + F3
    /usr/local/share/kb-backlight down
 
 super + F4
    /usr/local/share/kb-backlight up
+
+# volume
+
+super + F10
+   amixer set Master toggle
+
+super + F11
+   amixer set Master 5%-
+
+super + F12
+   amixer set Master 5%+
 
 # terminal emulator
 super + Return

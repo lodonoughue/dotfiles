@@ -15,7 +15,7 @@ URxvt.scrollBar:      False
 
 ! {{{ Rofi config
 
-rofi.opacity:         90
+rofi.opacity:         95
 rofi.font:            Roboto 16
 rofi.width:           1600
 rofi.lines:           5

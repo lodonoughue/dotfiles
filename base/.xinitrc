@@ -42,5 +42,5 @@ fi
 feh --bg-fill ~/pictures/wallpapers/.wallpaper.png &
 
 # start bspwm
-compton --config ~/.config/compton.conf &
-exec bspwm >> $HOME/.log 2>&1
+exec bspwm > $HOME/.log 2>&1 
+
