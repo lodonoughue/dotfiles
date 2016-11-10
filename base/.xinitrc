@@ -1,7 +1,11 @@
 #!/bin/sh
 
+# settings for the nvidia card
 xrandr --setprovideroutputsource modesetting NVIDIA-0
 xrandr --auto
+
+# settings for the cursor
+xsetroot -cursor_name left_ptr
 
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap

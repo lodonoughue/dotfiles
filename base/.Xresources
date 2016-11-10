@@ -18,6 +18,7 @@ URxvt.scrollBar:      False
 rofi.opacity:         95
 rofi.font:            Roboto 16
 rofi.width:           1600
+rofi.fullscreen:      true
 rofi.lines:           5
 rofi.padding:         400
 rofi.bw:              0

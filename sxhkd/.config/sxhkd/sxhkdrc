@@ -24,6 +24,10 @@ super + F12
 super + Return
 	urxvt
 
+# file explorer
+super + e
+   thunar
+
 # program launcher
 super + space
 	rofi -show run
