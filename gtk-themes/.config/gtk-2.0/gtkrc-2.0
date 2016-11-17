@@ -1,10 +1,11 @@
 
 gtk-can-change-accels = 1
 gtk-theme-name = "flat-ocean-dark"
+gtk-icon-theme-name = "Arc"
 
 style "user-font" {
-   font_name="Roboto 11"
+   font_name="Roboto 9"
 }
 widget_class "*" style "user-font"
-gtk-font-name = "Roboto 11"
+gtk-font-name = "Roboto 9"
 

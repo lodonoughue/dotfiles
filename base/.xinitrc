@@ -39,12 +39,9 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-# enable the keyboard backlight
-/usr/local/share/kb-backlight-enable >> $HOME/.log 2>&1 &
-
 # set the background
 feh --bg-fill ~/pictures/wallpapers/.wallpaper.png &
 
 # start bspwm
-exec bspwm > $HOME/.log 2>&1 
+exec bspwm
 

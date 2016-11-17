@@ -13,47 +13,43 @@
    height="37"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48+devel r"
+   inkscape:version="0.91 r13725"
    inkscape:export-filename="test.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
-   sodipodi:docname="launcher_arrow_large_ltr.svg">
+   sodipodi:docname="launcher_arrow_ltr_37.svg">
   <defs
      id="defs4">
     <clipPath
        clipPathUnits="userSpaceOnUse"
-       id="clipPath4219">
+       id="clipPath4069">
       <rect
-         y="1015.3622"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.12000002;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+         id="rect4071"
+         width="10"
+         height="19"
          x="20"
-         height="37"
-         width="20"
-         id="rect4221"
-         style="opacity:0.12000002;color:#000000;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+         y="1033.3622" />
     </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#5c48bb"
+     pagecolor="#828282"
      bordercolor="#666666"
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="9.3132256"
-     inkscape:cx="-5.367523"
-     inkscape:cy="31.963893"
+     inkscape:zoom="22.627417"
+     inkscape:cx="1.4637299"
+     inkscape:cy="12.768116"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1855"
-     inkscape:window-height="1056"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     showguides="false"
-     inkscape:guide-bbox="true"
-     inkscape:snap-page="true"
-     inkscape:snap-grids="false"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
@@ -65,7 +61,9 @@
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-midpoints="true"
      inkscape:snap-object-midpoints="true"
-     inkscape:snap-center="true">
+     inkscape:snap-text-baseline="false"
+     inkscape:snap-center="true"
+     inkscape:snap-page="true">
     <inkscape:grid
        type="xygrid"
        id="grid4740"
@@ -73,10 +71,6 @@
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="8,19"
-       id="guide3004" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -95,19 +89,14 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-1015.3622)">
-    <path
-       inkscape:transform-center-x="16.337474"
-       style="fill:#000000;stroke:none;opacity:0.14"
-       d="m 0,1023.9176 12.785849,9.9445 L 0,1043.8066 Z"
-       id="path5730"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
-    <path
-       sodipodi:nodetypes="cccc"
-       inkscape:connector-curvature="0"
-       id="path4079"
-       d="m 0,1024.9178 11.5,8.9444 -11.5,8.9444 z"
-       style="fill:#ffffff;stroke:none"
-       inkscape:transform-center-x="14.694444" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.90196079;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3338"
+       width="4"
+       height="33.000019"
+       x="4"
+       y="1017.3622"
+       ry="1.7382812e-05"
+       rx="1.7382812e-05" />
   </g>
 </svg>
