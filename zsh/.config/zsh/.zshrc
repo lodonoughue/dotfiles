@@ -1,0 +1,22 @@
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
+
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
+# 
+# KEYBOARD BACKLIGHT FUNCTION
+#
+
+_kbbacklight() {
+  /usr/local/share/kb-backlight $1
+}
+
+alias kb-backlight=_kbbacklight
+

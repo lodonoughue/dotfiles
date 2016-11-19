@@ -1,0 +1,31 @@
+:filetype plugin on
+:syntax on
+
+set nocompatible
+
+" {{{ PATHS
+
+set undodir=$XDG_CACHE_HOME/vim/undo " vim will not create this directory
+set directory=$XDG_CACHE_HOME/vim/swap " vim will not create this directory.
+set backupdir=$XDG_CACHE_HOME/vim/backup " vim will not create this directory.
+set viminfo+=n$XDG_CACHE_HOME/vim/viminfo
+
+" }}}
+
+
+" {{{ TABS 
+
+set tabstop=3 
+set shiftwidth=3 
+set expandtab 
+set smarttab
+set autoindent
+
+" }}}
+
+set number
+set mouse=a
+
+set foldmethod=marker
+set clipboard=unnamed
+
