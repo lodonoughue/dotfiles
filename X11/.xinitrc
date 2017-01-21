@@ -20,7 +20,7 @@ fi
 
 if [ -f "$userresources" ]; then
 
-    xrdb -merge "$userresources"
+    xrdb -I$XDG_CONFIG_HOME -merge "$userresources"
 
 fi
 

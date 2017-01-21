@@ -1,4 +1,4 @@
-#include "/usr/share/base16/xresources/base16-tomorrow.dark.256.xresources"
+#include "colors/arc-dark.xresources"
 
 Xft.dpi:              100
 Xft.antialias:        true

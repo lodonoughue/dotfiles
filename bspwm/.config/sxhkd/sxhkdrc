@@ -26,11 +26,15 @@ super + Return
 
 # file explorer
 super + e
-   thunar
+   nautilus
+
+# chrome
+super + i
+   google-chrome-stable
 
 # program launcher
 super + space
-	dmenu_run -nb '#1d1f21' -nf '#c5c8c6' -sb '#b5bd68' -sf '#1d1f21' -fn 'Source Code Pro-8'
+	dmenu_run -nb '#2F343F' -nf '#AFB8C6' -sb '#5F9E94' -sf '#2F343F' -fn 'Source Code Pro-8'
 
 # make sxhkd reload its configuration files:
 super + Escape

@@ -1,0 +1,61 @@
+
+#define bg  #2f343f
+#define fg  #afb8c6
+
+! dark
+#define c00  #353945
+#define c01  #f25056
+#define c02  #39ea49
+#define c03  #fac536
+#define c04  #5294e2
+#define c05  #aa61c2
+#define c06  #479d92
+#define c07  #858c98
+
+! light
+#define c08  #464c5c
+#define c09  #f2747f
+#define c10  #5beb65
+#define c11  #fad05c
+#define c12  #74a6e3
+#define c13  #ab7ec2
+#define c14  #5f9e94
+#define c15  #a8b1be
+
+! special
+*.foreground:   fg
+*.background:   bg
+*.cursorColor:  fg
+
+! black
+*.color0:       c00
+*.color8:       c08
+
+! red
+*.color1:       c01
+*.color9:       c09
+
+! green
+*.color2:       c02
+*.color10:      c10
+
+! yellow
+*.color3:       c03
+*.color11:      c11
+
+! blue
+*.color4:       c04
+*.color12:      c12
+
+! magenta
+*.color5:       c05
+*.color13:      c13
+
+! cyan
+*.color6:       c06
+*.color14:      c14
+
+! white
+*.color7:       c07
+*.color15:      c15
+
