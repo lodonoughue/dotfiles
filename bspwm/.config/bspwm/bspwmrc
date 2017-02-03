@@ -1,5 +1,7 @@
 #! /bin/sh
 
+xsetroot -cursor_name left_ptr
+
 sxhkd &
 compton &
 $XDG_CONFIG_HOME/polybar/launch.sh

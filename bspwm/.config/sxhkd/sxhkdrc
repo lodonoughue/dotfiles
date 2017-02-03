@@ -4,10 +4,10 @@
 
 # keyboard backlight
 super + F3
-   /usr/local/share/kb-backlight down
+   kb_backlight down
 
 super + F4
-   /usr/local/share/kb-backlight up
+   kb_backlight up
 
 # screen brightness
 super + F5
