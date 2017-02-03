@@ -1,6 +1,10 @@
 #! /bin/sh
 
 sxhkd &
+compton &
+$XDG_CONFIG_HOME/polybar/launch.sh
+nm-applet 2>&1 > /dev/null &
+
 feh --bg-fill $HOME/pictures/wallpaper.jpg &
 
 bspc monitor -d I II III IV V VI VII VIII IX X

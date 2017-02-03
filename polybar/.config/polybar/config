@@ -1,0 +1,161 @@
+;=====================================================
+;
+;   To learn more about how to configure Lemonbuddy
+;   go to https://github.com/jaagr/lemonbuddy
+;
+;   The README contains alot of information
+;
+;=====================================================
+
+[color]
+trans = #00000000
+bg =      #2F343F
+dimmed =  #353945
+fg =      #AFB8C6
+err =     #f2747f
+acc =     #5F9E94
+
+[dimen]
+pad =  4
+
+[font]
+text = 1
+icon = 2
+
+[settings]
+throttle_limit = 5
+throttle_ms = 100
+
+[bar/top]
+monitor = eDP1
+width =  1580
+height =   20
+offset-x = 10
+offset-y = 10
+
+background = ${color.trans}
+foreground = ${color.fg}
+
+border-color = ${color.bg}
+border-left-size =    0
+border-top-size =     0
+border-right-size =   0
+border-bottom-size =  0
+
+spacing =             1
+padding-left =        0
+padding-right =       0
+module-margin-left =  0
+module-margin-right = 0
+
+font-0 = Source\ Sans\ Pro:size=9;0
+font-1 = FontAwesome:size=8;-3
+
+modules-center = bspwm
+modules-right = volume backlight battery date
+
+tray-position = right
+tray-background = ${color.bg}
+tray-padding = ${dimen.pad}
+
+wm-restack = bspwm
+
+[module/bspwm]
+type = internal/bspwm
+ws-icon-default = x
+
+label-focused = 
+label-focused-foreground = ${color.acc}
+label-focused-padding = 2
+label-focused-font = ${font.icon}
+
+label-occupied = 
+label-occupied-foreground = ${color.fg}
+label-occupied-padding = 2
+label-occupied-font = ${font.icon}
+
+label-urgent = 
+label-urgent-foreground = ${color.fg}
+label-urgent-padding = 2
+label-urgent-font = ${font.icon}
+
+label-empty = 
+label-empty-foreground = ${color.fg}
+label-empty-padding = 2
+label-empty-font = ${font.icon}
+
+[module/date]
+type = internal/date
+date = %{T2}%{T-} %H:%M
+format-background = ${color.bg}
+format-padding = ${dimen.pad}
+interval = 5
+
+[module/backlight]
+type = internal/xbacklight
+
+format = <ramp> <label>
+format-background = ${color.bg}
+format-padding = ${dimen.pad}
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+
+label = %percentage%
+
+[module/volume]
+type = internal/volume
+speaker-mixer = Speaker
+headphone-mixer = Headphone
+headphone-id = 22
+
+format-volume-background = ${color.bg}
+format-volume-padding = ${dimen.pad}
+format-volume = <label-volume>
+
+format-muted-background = ${color.bg}
+format-muted-foreground = ${color.err}
+format-muted-padding = ${dimen.pad}
+format-muted = <label-muted>
+
+label-volume = %{T2}%{T-} %percentage%
+label-muted = %{T2}%{T-} %percentage%
+
+[module/battery]
+type = internal/battery
+full-at = 98
+battery = BAT0
+adapter = AC0
+
+format-charging = <ramp-capacity> <label-charging>
+format-charging-background = ${color.bg}
+format-charging-padding = ${dimen.pad}
+format-charging-foreground = ${color.acc}
+
+format-full = <ramp-capacity> <label-full>
+format-full-background = ${color.bg}
+format-full-padding = ${dimen.pad}
+format-full-foreground = ${color.acc}
+
+format-discharging = <ramp-capacity> <label-discharging>
+format-discharging-background = ${color.bg}
+format-discharging-padding = ${dimen.pad}
+
+ramp-capacity-font = ${font.icon}
+ramp-capacity-0 = 
+ramp-capacity-0-foreground = ${color.err}
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+
+label-charging = %percentage%
+label-full = %percentage%
+label-discharging = %percentage%
+
+[module/counter]
+type = internal/counter
+format = <counter>
+interval = 0.1
+
+; vim:ft=dosini

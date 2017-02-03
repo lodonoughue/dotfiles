@@ -9,6 +9,13 @@ super + F3
 super + F4
    /usr/local/share/kb-backlight up
 
+# screen brightness
+super + F5
+   xbacklight -dec 10
+
+super + F6
+   xbacklight -inc 10
+
 # volume
 
 super + F10
@@ -34,7 +41,7 @@ super + i
 
 # program launcher
 super + space
-	dmenu_run -nb '#2F343F' -nf '#AFB8C6' -sb '#5F9E94' -sf '#2F343F' -fn 'Source Code Pro-8'
+	dmenu_run -nb '#2F343F' -nf '#AFB8C6' -sb '#5F9E94' -sf '#2F343F' -fn 'Source Code Pro-8' -x 10 -y 10 -w 400 -h 20
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -86,7 +93,7 @@ alt + {_,shift + } Tab
 	bspc node -f {next,previous};
 
 # focus or send to the given desktop
-super + {_,ctrl + }{1-9,0}
+super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
 #
