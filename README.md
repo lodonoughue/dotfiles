@@ -1,2 +1,2 @@
-# dotfiles
-Archlinux dotfiles
+# Dotfiles
+MacBook Pro dotfiles
