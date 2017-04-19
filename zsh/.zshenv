@@ -1,5 +1,5 @@
 
-export ZDOTDIR=$HOME/.config/zsh/
+export ZDOTDIR=$HOME/Library/Zsh/
 
 source $ZDOTDIR/.zprezto/runcoms/zshenv
 
