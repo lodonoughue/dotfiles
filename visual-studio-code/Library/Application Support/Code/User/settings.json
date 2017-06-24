@@ -1,0 +1,12 @@
+{
+    // editor
+    "workbench.colorTheme": "Material Theme",
+    "editor.fontSize": 11,
+    "editor.fontFamily": "Source Code Pro",
+    "editor.renderWhitespace": "boundary",
+    "editor.minimap.renderCharacters": false,
+    "editor.cursorBlinking": "expand",
+    "editor.tabSize": 4
+
+
+}
