@@ -1,7 +1,7 @@
 {
     // editor
     "workbench.colorTheme": "Material Theme",
-    "editor.fontSize": 11,
+    "editor.fontSize": 10,
     "editor.fontFamily": "Source Code Pro",
     "editor.renderWhitespace": "boundary",
     "editor.minimap.renderCharacters": false,
