@@ -1,12 +1,15 @@
 {
     // editor
     "workbench.colorTheme": "Material Theme",
-    "editor.fontSize": 10,
+    "editor.fontSize": 11,
     "editor.fontFamily": "Source Code Pro",
     "editor.renderWhitespace": "boundary",
     "editor.minimap.renderCharacters": false,
     "editor.cursorBlinking": "expand",
-    "editor.tabSize": 4
-
-
+    "editor.tabSize": 4,
+    "editor.rulers": [
+        79
+    ],
+    "editor.minimap.maxColumn": 80,
+    "workbench.iconTheme": "material-icon-theme"
 }
