@@ -11,5 +11,13 @@
         79
     ],
     "editor.minimap.maxColumn": 80,
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    
+    // python
+    "python.linting.pylintArgs": [
+        "--rcfile=/Users/lodonoughue/Library/Preferences/Python/.pylintrc"
+    ],
+    "workbench.activityBar.visible": false,
+    "window.zoomLevel": 0,
+    "extensions.ignoreRecommendations": false
 }

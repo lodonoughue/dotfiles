@@ -3,8 +3,8 @@
 
 set nocompatible
 
-set tabstop=3 
-set shiftwidth=3 
+set tabstop=4
+set shiftwidth=4
 set expandtab 
 set smarttab
 set autoindent
