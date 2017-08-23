@@ -8,3 +8,6 @@ ZSH_HIGHLIGHT_STYLES[suffix-alias]='fg=green'
 ZSH_HIGHLIGHT_STYLES[precommand]='fg=green'
 ZSH_HIGHLIGHT_STYLES[path]=''
 
+# source aliases
+source $ZDOTDIR/.zaliases
+
