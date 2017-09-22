@@ -1,0 +1,12 @@
+{
+	"color_scheme": "Packages/User/lo-theme.tmTheme",
+	"font_face": "Source Code Pro",
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"tab_size": 4,
+	"theme": "Default.sublime-theme",
+	"translate_tabs_to_spaces": true
+}
