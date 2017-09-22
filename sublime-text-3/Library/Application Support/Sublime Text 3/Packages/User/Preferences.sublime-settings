@@ -1,7 +1,9 @@
 {
 	"color_scheme": "Packages/User/lo-theme.tmTheme",
+	"draw_outlined": true,
 	"font_face": "Source Code Pro",
 	"font_size": 11,
+	"highlight_delay": 1000,
 	"ignored_packages":
 	[
 		"Vintage"
