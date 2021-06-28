@@ -1,8 +1,10 @@
 
 # extend path variable
 path=(
-   $path
+   $PYENV_ROOT/bin
+   $PYENV_ROOT/shims
    $HOME/Library/Android/sdk/platform-tools
+   $path
 )
 
 
