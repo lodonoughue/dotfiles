@@ -1,9 +1,0 @@
-# This is Git's per-user configuration file.
-# [user]
-# Please adapt and uncomment the following lines:
-#	name = Laurent O'Donoughue
-#	email = l.odonoughue@gmail.com
-[user]
-	name = Laurent O'Donoughue
-	email = l.odonoughue@gmail.com
-
