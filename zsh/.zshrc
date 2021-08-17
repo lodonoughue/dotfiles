@@ -1,16 +1,16 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# Path to your oh-my-zsh installation.
+# Export environment variables
 export ZSH="/Users/lodonoughue/.oh-my-zsh"
 export NVM_LAZY=1
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home"
 export ANDROID_SDK_ROOT="/Users/lodonoughue/Library/Android/sdk"
+export NVM_DIR="$HOME/.nvm"
+
+# Append to $PATH
+export PATH="/usr/local/opt/libpq/bin:$PATH" # Add psql to $PATH
+export PATH="$ANDROID_SDK_ROOT/platform-tools:$PATH" # Add adb to $PATH
 
 # Ruby
 eval "$(rbenv init -)"
-
-export NVM_DIR="$HOME/.nvm"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
