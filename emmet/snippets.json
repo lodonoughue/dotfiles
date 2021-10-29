@@ -1,0 +1,7 @@
+{
+  "typescriptreact": {
+    "snippets": {
+      "imp": "import React from \"react\";\nimport styled from \"styled-components\";\n\ninterface Props {\nclassName?:string;\n}\n\nconst ${Component}: React.FC<Props> = props => {\nreturn (|);\n}\n\nexport default ${Component};"
+    }
+  }
+}
