@@ -74,7 +74,7 @@ module.exports = {
             limeGreen: '#32CD32',
             lightCoral: '#F08080',
         },
-        windowSize: [600, 800],
+        windowSize: [1200, 800],
         // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
         // if left empty, your system's login shell will be used by default
         //
@@ -135,7 +135,7 @@ module.exports = {
     //   `@company/project`
     //   `project#1.0.1`
     plugins: [
-        'nord-hyper'
+        'hyper-monokai-pro'
     ],
     // in development, you can create a directory under
     // `~/.hyper_plugins/local/` and include it here
