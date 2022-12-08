@@ -3,7 +3,6 @@ export XDG_CONFIG_HOME="$HOME/Library/Preferences"
 export XDG_DATA_HOME="$HOME/Library"
 export XDG_CACHE_HOME="$HOME/Library/Caches"
 export ZSH="/Users/lodonoughue/.oh-my-zsh"
-export NVM_LAZY=1
 export NVM_DIR="$HOME/.nvm"
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home"
 export ANDROID_SDK_ROOT="/Users/lodonoughue/Library/Android/sdk"
@@ -11,11 +10,17 @@ export GEM_HOME="$HOME/.gem"
 
 # Append to $PATH
 export PATH="/usr/local/opt/libpq/bin:$PATH" # Add psql to $PATH
-export PATH="$ANDROID_SDK_ROOT/platform-tools:$PATH" # Add adb to $PATH
+export PATH="$ANDROID_SDK_ROOT/platform-tools:$ANDROID_SDK_ROOT/emulator:$PATH" # Add adb to $PATH
 export PATH="$GEM_HOME:$PATH" # Add gem to $PATH
+
+# Homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Ruby
 eval "$(rbenv init -)"
+
+# ZStyle
+zstyle ':omz:plugins:nvm' lazy true
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
