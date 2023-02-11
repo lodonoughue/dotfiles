@@ -22,6 +22,17 @@ eval "$(rbenv init -)"
 # ZStyle
 zstyle ':omz:plugins:nvm' lazy true
 
+# Aliases
+alias gita="git add ."
+alias gitc="git commit -m"
+alias adbt="adb shell input text"
+alias adbenter="adb shell input keyevent 66"
+alias adbd="adb disconnect"
+alias adbprod="adb shell am start -a android.intent.action.VIEW -d 'fonsetv://run/environment/set/TV_PRODUCTION'"
+alias adb7802="adb connect 10.0.0.10"
+alias adbchiclet="adb connect 10.0.0.11"
+alias adbfiretv="adb connect 10.0.0.12"
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -108,15 +119,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
