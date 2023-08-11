@@ -75,6 +75,7 @@ module.exports = {
             lightCoral: '#F08080',
         },
         windowSize: [1200, 800],
+        scrollback: 24000,
         // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
         // if left empty, your system's login shell will be used by default
         //

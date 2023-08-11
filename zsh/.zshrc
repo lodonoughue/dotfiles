@@ -4,23 +4,21 @@ export XDG_DATA_HOME="$HOME/Library"
 export XDG_CACHE_HOME="$HOME/Library/Caches"
 export ZSH="/Users/lodonoughue/.oh-my-zsh"
 export NVM_DIR="$HOME/.nvm"
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home"
-export ANDROID_SDK_ROOT="/Users/lodonoughue/Library/Android/sdk"
+export ANDROID_SDK="/Users/lodonoughue/Library/Android/sdk"
+export ANDROID_HOME=$ANDROID_SDK
 export GEM_HOME="$HOME/.gem"
+
+# Set JAVA_HOME with asdf
+source $HOME/.asdf/plugins/java/set-java-home.zsh
 
 # Append to $PATH
 export PATH="/usr/local/opt/libpq/bin:$PATH" # Add psql to $PATH
-export PATH="$ANDROID_SDK_ROOT/platform-tools:$ANDROID_SDK_ROOT/emulator:$PATH" # Add adb to $PATH
+export PATH="$ANDROID_SDK/platform-tools:$ANDROID_SDK/emulator:$PATH" # Add adb to $PATH
 export PATH="$GEM_HOME:$PATH" # Add gem to $PATH
 
 # Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
-
-# Ruby
-eval "$(rbenv init -)"
-
-# ZStyle
-zstyle ':omz:plugins:nvm' lazy true
+source $(brew --prefix asdf)/libexec/asdf.sh
 
 # Aliases
 alias gita="git add ."
@@ -32,95 +30,13 @@ alias adbprod="adb shell am start -a android.intent.action.VIEW -d 'fonsetv://ru
 alias adb7802="adb connect 10.0.0.10"
 alias adbchiclet="adb connect 10.0.0.11"
 alias adbfiretv="adb connect 10.0.0.12"
+alias fonse77="adb shell am start -a android.intent.action.VIEW -d 'fonsetv://run/login/username/fonse77/password/'\$(op read op://oygubvjrnncere6c57wy2duoni/4l7z32zqbrhdjg2no5rub3p3gu/password)"
+alias retailstore="adb shell am start -a android.intent.action.VIEW -d 'fonsetv://run/login/username/fonsec8b@bellaliant.net/password/'\$(op read op://oygubvjrnncere6c57wy2duoni/wn6mq72fvcnj34hcouylhd6emq/password)"
 
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="robbyrussell"
 
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in $ZSH/themes/
-# If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
-
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-
-# Uncomment the following line to use hyphen-insensitive completion.
-# Case-sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
-
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to automatically update without prompting.
-# DISABLE_UPDATE_PROMPT="true"
-
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
-
-# Uncomment the following line if pasting URLs and other text is messed up.
-# DISABLE_MAGIC_FUNCTIONS="true"
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-# Caution: this setting can cause issues with multiline prompts (zsh 5.7.1 and newer seem to work)
-# See https://github.com/ohmyzsh/ohmyzsh/issues/5765
-# COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
-# You can set one of the optional three formats:
-# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# or set a custom format using the strftime function format specifications,
-# see 'man strftime' for details.
-# HIST_STAMPS="mm/dd/yyyy"
-
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
-# Which plugins would you like to load?
-# Standard plugins can be found in $ZSH/plugins/
-# Custom plugins may be added to $ZSH_CUSTOM/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(git macos nvm)
+plugins=(git macos asdf)
 
 source $ZSH/oh-my-zsh.sh
-
-# User configuration
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
