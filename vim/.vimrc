@@ -19,8 +19,6 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
 endif
 
 call plug#begin(expand('~/.vim/plugged'))
-Plug 'arcticicestudio/nord-vim'
+Plug 'morhetz/gruvbox'
 call plug#end()
-
-colorscheme nord
 
