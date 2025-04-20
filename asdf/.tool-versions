@@ -1,6 +1,7 @@
 java temurin-17.0.10+7
-nodejs 22.12.0
-python 3.12.2 2.7.18
+nodejs 23.8.0
+python 3.12.9 2.7.18
 ruby 3.2.3
-dotnet 8.0.204
+dotnet 8.0.407
+pnpm 10.8.0
 

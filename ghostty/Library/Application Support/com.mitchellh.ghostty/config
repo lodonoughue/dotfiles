@@ -1,0 +1,12 @@
+theme=catppuccin-frappe.conf
+font-family=Rec Mono Semicasual
+background-opacity=0.9
+background-blur=80
+
+window-padding-x=16
+window-padding-y=16
+adjust-cell-height=20%
+adjust-cell-width=1
+
+macos-titlebar-style=transparent
+

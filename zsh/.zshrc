@@ -7,8 +7,8 @@ export ZSH="$HOME/.oh-my-zsh"
 export HOMEBREW_AUTO_UPDATE_SECS=86400 # 1 day
 export ANDROID_SDK="$XDG_DATA_HOME/Android/sdk"
 export ANDROID_HOME=$ANDROID_SDK
+export DOTNET_ROOT="$ASDF_DATA_DIR/shims"
 export GEM_HOME="$HOME/.gem"
-export $(grep -v "^#" "$HOME/.env.nomadis" | xargs)
 
 # Set JAVA_HOME with asdf
 source "$ASDF_DATA_DIR/plugins/java/set-java-home.zsh"
